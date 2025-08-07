@@ -19,8 +19,6 @@ multi-disease-predictor/
 
 ├── app.py # Streamlit UI
 
-├── preprocess_kidney.py # Kidney data split
-
 ├── train_kidney_model.py # Kidney model training
 
 ├── train_liver_model.py # Liver model training
