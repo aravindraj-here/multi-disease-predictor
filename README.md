@@ -16,7 +16,7 @@ This project is a Streamlit-based web application that predicts the likelihood o
 ## 📁 Project Structure
 
 multi-disease-predictor/
-│
+
 ├── app.py # Streamlit UI
 
 ├── preprocess_kidney.py # Kidney data split
@@ -26,9 +26,14 @@ multi-disease-predictor/
 ├── train_liver_model.py # Liver model training
 
 ├── train_parkinsons_model.py # Parkinson's model training
+
 ├── models/ # Saved models
-│ ├── kidney_model.pkl
-│ ├── liver_model.pkl
-│ ├── parkinsons_model.pkl
-│ └── kidney_split.pkl
+
+ ├── kidney_model.pkl
+
+ ├── liver_model.pkl
+ 
+ ├── parkinsons_model.pkl
+
+ └── kidney_split.pkl
 
